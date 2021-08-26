@@ -1,0 +1,133 @@
+body{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+/* NAV BAR */
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B2F38;
+    color: silver;
+}
+
+.navbar-light .navbar-brand {
+    color: silver;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #1B2F38;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: silver;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: silver
+}
+
+/* UNO */
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#titulo1{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#titulo2{
+    font-size: 14px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#userinput{
+    display: inline-block;
+    padding: 7px 10px 11px 20px ;
+}
+
+.btn-danger{
+    padding: 10px 30px 10px 30px ; 
+    
+}
+
+#uno{
+    text-align: center;
+    background-color: #eefcfa;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+/* CARD */
+#dos{
+    background-color: #B5E6DF;
+    border: none;
+}
+
+.col-sm-3 {
+    display: table-cell;
+}
+
+.card{
+    border: none;
+    background-color: #B5E6DF;
+}
+
+.card-text{
+    width: 100%; 
+    font-size: 12px;
+}
+
+/* FONT FAMILY */
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #1d1e2c;
+    padding: 15px 15px 15px 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.footerinfo{
+    text-decoration: none;
+    color: snow;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #1d1e2c;
+}
+
+#copyright{
+    color: hsl(0, 12%, 83%);
+    margin-top: 20px;
+}
+
+.btn{
+    color:antiquewhite
+}
